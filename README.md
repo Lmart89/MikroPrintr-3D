@@ -21,8 +21,11 @@ La placa está diseñada bajo el estándar de ramps shield.
 
 - Tamaño Reducido. cumple con no sobrepasar los 1000 mm2 lo que es igual a un tamaño de fabricación de 100x100 mm. 
 
-- Integración en una sola placa. El diseño sigue el estándar de Ramps 1.4 para las conexiones, de manera que no solamente existe soporte nativo, sino que además la PCB es de fácil fabricación al ser mayormente de una sola capa. 
+- Integración en una sola placa. El diseño sigue el estándar de Ramps 1.4 para las conexiones, de manera que no solamente existe soporte nativo, sino que además la PCB es de fácil fabricación al ser mayormente de una sola capa. si se elabora a mano, se recomienda un método de mejor precisión, o el uso de una cnc, esto debido a las zonas donde las pistas son delgadas y cercas unas de las otras.
 
 
-- Soporte Estándar para pantallas LCD. La placa permite el uso de la smart reprap controller (lcd 2004) o la smart reprap full graphic controller (lcd 12864).
+- Soporte Estándar para pantallas LCD. La placa permite el uso de la smart reprap controller (lcd 2004) o la smart reprap full graphic controller (lcd 12864), sin requerir el uso del adaptador para el shield ramps, solamente conectando los cables a los pines EXP1 y EXP2 respectivamente que ya vienen integrados en la placa. 
 
+## Estado Actual del Proyecto.
+
+actualmente se encuentra en fase de prueba. 
