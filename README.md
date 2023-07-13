@@ -41,5 +41,5 @@ Las mejoras y/o modificaciones se publicarán regularmente.
 
 Si te interesa mi proyecto y deseas colaborar en el desarrollo, puedes contactarme. 
 
-* al hacer uso de los archivos de este repositorio, el usuario asume la propia responsabilidad y riesgo de uso bajo si mismo. 
+### al hacer uso de los archivos de este repositorio, el usuario asume la propia responsabilidad y riesgo de uso bajo si mismo. 
 
