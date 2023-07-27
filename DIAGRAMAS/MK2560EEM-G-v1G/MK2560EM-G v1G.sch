@@ -20834,13 +20834,13 @@ Wickmann</description>
 <part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="EXT1" library="con-wago-500" library_urn="urn:adsk.eagle:library:195" deviceset="W237-102" device="" package3d_urn="urn:adsk.eagle:package:10688/1"/>
 <part name="R12" library="resistor" deviceset="R-US_" device="0204/7" value="4k7"/>
-<part name="C8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="E2-4" package3d_urn="urn:adsk.eagle:package:23347/1" value="10uf"/>
+<part name="C8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="E2.5-6" package3d_urn="urn:adsk.eagle:package:23349/1" value="10uf"/>
 <part name="GND12" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="P+15" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="THERM0" library="-redpic-connector" deviceset="PINHD-1X2" device=""/>
 <part name="GND14" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="R9" library="resistor" deviceset="R-US_" device="0204/7" value="4k7"/>
-<part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="E2-4" package3d_urn="urn:adsk.eagle:package:23347/1" value="10uf"/>
+<part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="E2.5-6" package3d_urn="urn:adsk.eagle:package:23349/1" value="10uf"/>
 <part name="GND6" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="P+6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="THERM1" library="-redpic-connector" deviceset="PINHD-1X2" device=""/>
@@ -20896,7 +20896,7 @@ Wickmann</description>
 <part name="FAN1" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
 <part name="FAN2" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
 <part name="PS-ON" library="con-wago-500" library_urn="urn:adsk.eagle:library:195" deviceset="W237-102" device="" package3d_urn="urn:adsk.eagle:package:10688/1"/>
-<part name="PWR" library="con-wago-500" library_urn="urn:adsk.eagle:library:195" deviceset="W237-102" device="" package3d_urn="urn:adsk.eagle:package:10688/1"/>
+<part name="+12V_+5V" library="con-wago-500" library_urn="urn:adsk.eagle:library:195" deviceset="W237-102" device="" package3d_urn="urn:adsk.eagle:package:10688/1"/>
 <part name="PWR-B" library="con-wago-500" library_urn="urn:adsk.eagle:library:195" deviceset="W237-102" device="" package3d_urn="urn:adsk.eagle:package:10688/1"/>
 <part name="GND23" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="WIFI" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X5" device="" package3d_urn="urn:adsk.eagle:package:22469/2" value="g+5v3v3rxtx"/>
@@ -21305,12 +21305,11 @@ on board but soldered with cables.</text>
 <attribute name="VALUE" x="-243.84" y="278.257" size="1.778" layer="96"/>
 <attribute name="NAME" x="-241.3" y="282.829" size="1.778" layer="95" rot="R180"/>
 </instance>
-<instance part="PWR" gate="-1" x="-226.06" y="261.62" smashed="yes">
-<attribute name="NAME" x="-226.06" y="262.509" size="1.778" layer="95" rot="R180"/>
+<instance part="+12V_+5V" gate="-1" x="-226.06" y="261.62" smashed="yes">
+<attribute name="NAME" x="-226.06" y="259.969" size="1.778" layer="95" rot="R180"/>
 </instance>
-<instance part="PWR" gate="-2" x="-238.76" y="261.62" smashed="yes" rot="R180">
+<instance part="+12V_+5V" gate="-2" x="-238.76" y="261.62" smashed="yes" rot="R180">
 <attribute name="VALUE" x="-236.22" y="265.303" size="1.778" layer="96" rot="R180"/>
-<attribute name="NAME" x="-238.76" y="260.731" size="1.778" layer="95"/>
 </instance>
 <instance part="PWR-B" gate="-1" x="-243.84" y="241.3" smashed="yes">
 <attribute name="NAME" x="-243.84" y="242.189" size="1.778" layer="95" rot="R180"/>
@@ -22203,7 +22202,7 @@ on board but soldered with cables.</text>
 <wire x1="-208.28" y1="261.62" x2="-208.28" y2="264.16" width="0.1524" layer="91"/>
 <pinref part="C1" gate="G$1" pin="1"/>
 <wire x1="-215.9" y1="261.62" x2="-215.9" y2="259.08" width="0.1524" layer="91"/>
-<pinref part="PWR" gate="-1" pin="KL"/>
+<pinref part="+12V_+5V" gate="-1" pin="KL"/>
 <wire x1="-215.9" y1="261.62" x2="-220.98" y2="261.62" width="0.1524" layer="91"/>
 <junction x="-215.9" y="261.62"/>
 </segment>
@@ -22903,7 +22902,7 @@ on board but soldered with cables.</text>
 <pinref part="F5A" gate="1" pin="2"/>
 <wire x1="-238.76" y1="269.24" x2="-238.76" y2="264.16" width="0.1524" layer="91"/>
 <wire x1="-238.76" y1="264.16" x2="-243.84" y2="264.16" width="0.1524" layer="91"/>
-<pinref part="PWR" gate="-2" pin="KL"/>
+<pinref part="+12V_+5V" gate="-2" pin="KL"/>
 <wire x1="-243.84" y1="264.16" x2="-243.84" y2="261.62" width="0.1524" layer="91"/>
 </segment>
 </net>
