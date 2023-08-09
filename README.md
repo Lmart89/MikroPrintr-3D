@@ -7,19 +7,19 @@
 ## Una placa controladora de impresion 3d, compacta, de bajo coste basada en Arduino.
 
 <p align="left">
-   <img src="https://img.shields.io/badge/STATUS-EN%20DESAROLLO-green">
+   <img src="https://img.shields.io/badge/STATUS-EN%20DESAROLLO-green"> <img src="https://img.shields.io/github/license/Lmart89/Mikroprintr-3D"> <img src="https://img.shields.io/badge/Basado_en-Arduino-blue"> <img src="https://img.shields.io/github/forks/Lmart89/MikroPrintr-3D?color=green">
+
 </p>
 
-![GitHub forks](https://img.shields.io/github/forks/Lmart89/MikroPrintr-3D?color=green)
 
-<img src="https://img.shields.io/badge/Basado_en-Arduino-blue">
+
 
 ## Origen del Concepto
 
 Mikropintr es el resultado propio de ideas tomadas de proyectos como Sinaptec (https://reprap.org/wiki/SinapTec), Morpheus (https://github.com/pscrespo/Morpheus-STM32) entre otros que ofrecen una solucion compacta y de bajo coste para la construccion de una placa controladora de impresion 3D. sin embargo el gran limitante de estas placas es que requieren modificar el firmware para lograr funcionar aunque no al 100% en muchos casos.
 Es asi como MikroPrintr pretende ofrecer una solucion de bajo coste, a la vez de ser 100% compatible con Marlin sin sacrificar ninguna de sus capacidades, todo esto contenido en una placa compacta. para ello se opto por una version reducida de Arduino Mega.
 
-## Características de MikroPrintr.
+## :heavy_check_mark: Características de MikroPrintr. :heavy_check_mark:
 
 - MCU: Arduino Mega 2560 Pro-Micro. Una versión compacta del Arduino Mega 2560 pero con las mismas capacidades.
 
@@ -40,7 +40,7 @@ Es asi como MikroPrintr pretende ofrecer una solucion de bajo coste, a la vez de
 - Proteccion contra corriente y sobrecarga por dos conexiones de fusibles. 
 
 
-## Estado del Proyecto.
+## :chart_with_upwards_trend: Estado del Proyecto.
 
 <img src="https://img.shields.io/badge/STATUS:-%20ACTIVO-green">
 
@@ -52,7 +52,7 @@ actualmente se encuentra en fase de prueba, y en constante revisión para mejora
 La revisión actual es la 1G. 
 Las mejoras y/o modificaciones se publicarán constantemente
 
-## Recursos adicionales. 
+## :books: Recursos adicionales.
 
 he adjuntado a este proyecto algunos modelos de impresoras 3d que pueden ser de interés si estas construyendo tu propia impresora desde 0. he añadido 3 variantes, puedes consultar en los enlaces a sus archivos.
 
@@ -61,7 +61,7 @@ he adjuntado a este proyecto algunos modelos de impresoras 3d que pueden ser de 
 - Prusa mini- la version mini de la prusa i3, complejidad media. sitio oficial: https://www.printables.com/es/model/57214-mini-printable-parts/files
 
 
-## Proyectos en conjunto. 
+## :hammer_and_pick: Proyectos en conjunto. 
 De momento estoy trabajando en el desarrollo de un software host propio para manejar la placa.
 
 Si te interesa mi proyecto y deseas colaborar en el desarrollo, puedes contactarme, dejandome un mensaje o un request o solicitud de cambio via github.
