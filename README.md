@@ -4,7 +4,12 @@
 
 # MikroPrintr-3D.
 
+<<<<<<< Updated upstream
 ## Una placa controladora de impresion 3d, compacta, de bajo coste basada en Arduino.
+=======
+<p align="left">   <img src="https://img.shields.io/badge/STATUS-EN%20DESAROLLO-green">   </p>
+
+>>>>>>> Stashed changes
 
 <p align="left">
    <img src="https://img.shields.io/badge/STATUS-EN%20DESAROLLO-green"> <img src="https://img.shields.io/github/license/Lmart89/Mikroprintr-3D"> <img src="https://img.shields.io/badge/Basado_en-Arduino-blue"> <img src="https://img.shields.io/github/forks/Lmart89/MikroPrintr-3D?color=green">
