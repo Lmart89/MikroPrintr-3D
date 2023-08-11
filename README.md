@@ -11,7 +11,7 @@
 
 </p>
 
-## Origen del Concepto
+## 💡 Origen del Concepto
 
 Mikropintr es el resultado propio de ideas tomadas de proyectos como Sinaptec (https://reprap.org/wiki/SinapTec), Morpheus (https://github.com/pscrespo/Morpheus-STM32) entre otros que ofrecen una solucion compacta y de bajo coste para la construccion de una placa controladora de impresion 3D. sin embargo el gran limitante de estas placas es que requieren modificar el firmware para lograr funcionar aunque no al 100% en muchos casos.
 Es asi como MikroPrintr pretende ofrecer una solucion de bajo coste, a la vez de ser 100% compatible con Marlin sin sacrificar ninguna de sus capacidades, todo esto contenido en una placa compacta. para ello se opto por una version reducida de Arduino Mega.
@@ -82,13 +82,14 @@ para esta version he añadido imagenes con las dimensiones de las piezas en 3D p
 
 🌎 sitio oficial: https://www.printables.com/es/model/57214-mini-printable-parts/files
 
+los archivos stl de estos modelos se encuentran en la carpeta "printable parts".
 
 ## :hammer_and_pick: Proyectos en conjunto. 
 De momento estoy trabajando en el desarrollo de un software host propio para manejar la placa.
 
 Si te interesa mi proyecto y deseas colaborar en el desarrollo, puedes contactarme, dejandome un mensaje o un request o solicitud de cambio via github.
 
-Deseo que este proyecto pueda ser de utilidad para ti, maker. con :heart: desde Colombia para el mundo. :smile:
+Deseo que este proyecto pueda ser de utilidad para ti, maker. con :heart: desde Colombia 🇨🇴 para el mundo 🌎. :smile:
 
 ### <h4> :heavy_exclamation_mark: al hacer uso de los archivos publicados en este repositorio, el usuario acepta y asume su propia responsabilidad y riesgo por el uso y/o manipulacion de los archivos ofrecidos en este repositorio. :heavy_exclamation_mark: </h>
 
