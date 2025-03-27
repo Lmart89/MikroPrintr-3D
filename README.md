@@ -3,7 +3,7 @@
 </p>
 
 # MikroPrintr-3D.
-## Una placa controladora de impresion 3d, compacta, de bajo coste basada en Arduino.
+## Una placa controladora de impresion 3d de bajo coste basada en Arduino.
 
 <p align="center">
 
@@ -13,28 +13,24 @@
 
 ## 💡 Origen del Concepto
 
-Mikropintr es el resultado propio de ideas tomadas de proyectos como Sinaptec (https://reprap.org/wiki/SinapTec), Morpheus (https://github.com/pscrespo/Morpheus-STM32) entre otros que ofrecen una solucion compacta y de bajo coste para la construccion de una placa controladora de impresion 3D. sin embargo el gran limitante de estas placas es que requieren modificar el firmware para lograr funcionar aunque no al 100% en muchos casos.
-Es asi como MikroPrintr pretende ofrecer una solucion de bajo coste, a la vez de ser 100% compatible con Marlin sin sacrificar ninguna de sus capacidades, todo esto contenido en una placa compacta. para ello se opto por una version reducida de Arduino Mega.
+Mikropintr es el resultado propio de ideas tomadas de proyectos como Sinaptec (https://reprap.org/wiki/SinapTec), Morpheus (https://github.com/pscrespo/Morpheus-STM32) entre otros que ofrecen una solucion compacta y de bajo coste para la construccion de una placa controladora de impresion 3D. Sin embargo el gran limitante de estas placas es la necesidad de modificar el firmware para lograr compatiblidad con estos dispositovos, algo que requiere de mucho trabajo mas alla de la personalizacion, sin contar con los bugs resultantes en el proceso.
+MikroPrintr pretende ofrecer una solucion asequible, a la vez de ser 100% compatible con Marlin, permitiendo desarrollar todo el potencial y la personalizacion a gusto. Para quepueda ser una placa compacta se opto por el arduino mega 2560 pro, una version reducida de Arduino Mega.
 
 ## :heavy_check_mark: Características de MikroPrintr.
 
-- MCU: Arduino Mega 2560 Pro-Micro. Una versión compacta del Arduino Mega 2560 pero con las mismas capacidades.
+- MCU: Arduino Mega 2560 Pro-Micro. Un Arduino Mega reducido en tamaño.
 
-- Soporte Estándar de Marlin, sin necesidad de modificaciones especiales para el soporte de Hardware. 
+- Soporte Estándar de Marlin 2.0
 
-- Diseñada bajo el estandar RAMPS 1.4.
+- Diseñada bajo el standar RAMPS 1.4.
 
-- Fabricación de bajo coste. uso de componentes THT (Trough Hole) para fabricacion manual. 
+- Fabricación para uso de componentes THT (Trough Hole). 
 
 - Tamaño Reducido. 103 mm x 90mm. a 1 sola capa, o producir a dos capas si se desea.
 
-- Soporte Estándar para pantallas LCD. Permite accesorios como la smart reprap controller (lcd 2004) o la smart reprap full graphic controller (lcd 12864). no necesita el adatador para la conexion.
+- Soporte Estándar de la smart reprap controller (lcd 2004) o la smart reprap full graphic controller (lcd 12864). no necesita la placa adaptadora para la conexion.
   
-- Soporte para Módulo Wifi. la placa ofrece la conexión para añadir un módulo wifi esp8266-01 o esp8266-01s, conocidos como Esp-01. se recomienda la versión Esp-01s, por la gran mejora del consumo de energía, y en ambos casos se requiere un regulador de nivel lógico de 5v a 3.3v para los módulos. se ofrece una PCB para montaje del módulo si prefiere hacerlo personalmente. 
-
-- PSU ATX. diseñada para funcionar con una fuente de pc, que pueda ofrecer por lo menos 20A en una linea de 12v y max. 6A en la linea de +5v y 12v adicionales.
-
-- Proteccion contra corriente y sobrecarga por dos conexiones de fusibles. 
+- Soporte para Módulo Wifi (esp8266-01 o esp8266-01s) Se recomienda la versión Esp-01s. se requiere un regulador de nivel lógico de 5v a 3.3V.
 
 
 ## :chart_with_upwards_trend: Estado del Proyecto.
@@ -50,11 +46,6 @@ y por lo tanto consideradas versiones preliminares o candidatas antes de una lib
 Con la elaboracion de las primeras placas elaboradas profesionalmente se esperan poder continuar el siguiente proceso de pruebas. aqui dejo una vista de la pcb fabricada.
 
 ![MK2560EM-G v1G-6](https://github.com/Lmart89/MikroPrintr-3D/assets/42391946/b7758e84-6ec3-454d-9e4d-8ec850b0c561) ![pcb1 (2)](https://github.com/Lmart89/MikroPrintr-3D/assets/42391946/c738c8f0-bd2f-444a-a74a-e2b8dbaf5939)
-
-
-
-
-
 
 
 ## :books: Recursos adicionales.
