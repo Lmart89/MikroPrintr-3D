@@ -61,20 +61,20 @@ Con la elaboracion de las primeras placas elaboradas profesionalmente se esperan
 
 he adjuntado a este proyecto algunos modelos de impresoras 3d que pueden ser de interés si estas construyendo tu propia impresora desde 0. he añadido 3 variantes, puedes consultar en los enlaces a sus archivos.
 
-- Me Mini 3d Printer - la mas completa y compleja.
+### Me Mini 3d Printer - la mas completa y compleja.
   
  ![featured_preview_ME_-_mini_-_12](https://github.com/Lmart89/MikroPrintr-3D/assets/42391946/46812bdc-8866-457e-95c1-b1a581d16094)
 
 :earth_americas: link oficial. https://www.thingiverse.com/thing:5140212. lastimosamente el sitio oficial con las instrucciones y lista de materiales para su montaje fue eliminado. solo quedan los archivos en Thingiverse y printables.
 
-- Skylab2 - una construccion sencilla y simple, recomendada para empezar. 
+### Skylab2 - una construccion sencilla y simple, recomendada para empezar. 
 para esta version he añadido imagenes con las dimensiones de las piezas en 3D para facilitar laa busqueda de los componentes mecanicos como rodamientos y varillas para el montaje de esta impresora.
 
 ![skylab2_1](https://github.com/Lmart89/MikroPrintr-3D/assets/42391946/04487701-f611-479c-83f3-e13e89c8b58e)
 
 :earth_americas: link oficial. https://www.thingiverse.com/thing:4624533.
 
-- Prusa mini- la version mini de la prusa i3, complejidad media.
+### Prusa mini- la version mini de la prusa i3, complejidad media.
   <img src="https://img.shields.io/badge/IMPORTANTE-blue"> Requiere la mayoria de sus piezas en ABS. 
 
 ![prusa_mini](https://github.com/Lmart89/MikroPrintr-3D/assets/42391946/c5f544c7-e0e4-4b27-9812-66b6006dfd71)
