@@ -2,7 +2,7 @@
 <img src=https://github.com/Lmart89/MikroPrintr-3D/assets/42391946/adc98b10-5be8-494d-9cd8-6f2932e612d1">
 </p>
 
-# MikroPrintr-3D.
+# MikroPrinter-3D.
 ## Una placa controladora de impresion 3d de bajo coste basada en Arduino.
 
 <p align="center">
@@ -39,33 +39,30 @@ MikroPrintr pretende ofrecer una solucion asequible, a la vez de ser 100% compat
 
 :construction: Proyecto en construcción :construction:
 
-actualmente se encuentra en fase de prueba, y en constante revisión para mejoras y constante evolución.
-La version actual de los archivos es la version 1G. Debido a la posibilidad de contener algunos "bugs", son por el momento versiones de prueba,
-y por lo tanto consideradas versiones preliminares o candidatas antes de una liberacion al publico.
+## :books: Registro de cambios
 
-Con la elaboracion de las primeras placas elaboradas profesionalmente se esperan poder continuar el siguiente proceso de pruebas. aqui dejo una vista de la pcb fabricada.
-
-![MK2560EM-G v1G-6](https://github.com/Lmart89/MikroPrintr-3D/assets/42391946/b7758e84-6ec3-454d-9e4d-8ec850b0c561) ![pcb1 (2)](https://github.com/Lmart89/MikroPrintr-3D/assets/42391946/c738c8f0-bd2f-444a-a74a-e2b8dbaf5939)
-
+###  Abril 2025.
+- Se optimizo el diseño de la placa, y se corrigieron algunos detalles menores de la circuiteria.
+- Rediseño de las piezas de la impresora con nuevas medidas, por un error de medicion en algunas de ellas.
+- se libera la version 1H. de la placa.  
 
 ## :books: Recursos adicionales.
 
-he adjuntado a este proyecto algunos modelos de impresoras 3d que pueden ser de interés si estas construyendo tu propia impresora desde 0. he añadido 3 variantes, puedes consultar en los enlaces a sus archivos.
+los siguientes modelos de impresoras pueden dar una fuente de inspiracion para el montaje  o diseño de una impresora 3d. uselos segun discrecion y precaucion propias.
 
 ### Me Mini 3d Printer - la mas completa y compleja.
   
  ![featured_preview_ME_-_mini_-_12](https://github.com/Lmart89/MikroPrintr-3D/assets/42391946/46812bdc-8866-457e-95c1-b1a581d16094)
 
-:earth_americas: link oficial. https://www.thingiverse.com/thing:5140212. lastimosamente el sitio oficial con las instrucciones y lista de materiales para su montaje fue eliminado. solo quedan los archivos en Thingiverse y printables.
+:earth_americas: link oficial. https://www.thingiverse.com/thing:5140212. 
 
 ### Skylab2 - una construccion sencilla y simple, recomendada para empezar. 
-para esta version he añadido imagenes con las dimensiones de las piezas en 3D para facilitar laa busqueda de los componentes mecanicos como rodamientos y varillas para el montaje de esta impresora.
 
 ![skylab2_1](https://github.com/Lmart89/MikroPrintr-3D/assets/42391946/04487701-f611-479c-83f3-e13e89c8b58e)
 
 :earth_americas: link oficial. https://www.thingiverse.com/thing:4624533.
 
-### Prusa mini- la version mini de la prusa i3, complejidad media.
+### Prusa mini- la version mini de la prusa i3.
   <img src="https://img.shields.io/badge/IMPORTANTE-blue"> Requiere la mayoria de sus piezas en ABS. 
 
 ![prusa_mini](https://github.com/Lmart89/MikroPrintr-3D/assets/42391946/c5f544c7-e0e4-4b27-9812-66b6006dfd71)
