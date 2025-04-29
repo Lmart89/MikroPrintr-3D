@@ -19187,7 +19187,7 @@ naming: grid - package width</description>
 <part name="FAN1" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
 <part name="12V-IN" library="con-wago-500" library_urn="urn:adsk.eagle:library:195" deviceset="W237-102" device="" package3d_urn="urn:adsk.eagle:package:10688/1"/>
 <part name="PWR-B" library="con-wago-500" library_urn="urn:adsk.eagle:library:195" deviceset="W237-102" device="" package3d_urn="urn:adsk.eagle:package:10688/1"/>
-<part name="WIFI" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X6" device="" package3d_urn="urn:adsk.eagle:package:22472/2" value="g+5v3v3rxtx"/>
+<part name="WIFI-SERIAL3" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X6" device="" package3d_urn="urn:adsk.eagle:package:22472/2" value="g+5v3v3rxtx"/>
 <part name="GND24" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="H1" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-HOLE" device="2.8" package3d_urn="urn:adsk.eagle:package:14271/1"/>
 <part name="H2" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-HOLE" device="2.8" package3d_urn="urn:adsk.eagle:package:14271/1"/>
@@ -19225,6 +19225,9 @@ naming: grid - package width</description>
 <part name="C14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="E2.5-6" package3d_urn="urn:adsk.eagle:package:23349/1" value="470uF"/>
 <part name="P+4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="PWR-SEL" library="-redpic-connector" deviceset="PINHD-1X4" device=""/>
+<part name="SERIAL_0_EXP" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X6" device="" package3d_urn="urn:adsk.eagle:package:22472/2" value="g+5v3v3rxtx"/>
+<part name="GND26" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="R16" library="resistor" deviceset="R-US_" device="0204/7" value="10k"/>
 </parts>
 <sheets>
 <sheet>
@@ -19246,12 +19249,14 @@ positive pole point to the fuse.</text>
 <text x="-327.66" y="289.56" size="1.778" layer="91">STEPPERS MOTORS</text>
 <text x="-264.16" y="144.78" size="1.778" layer="91">EXTRUDER MOTOR</text>
 <text x="-55.88" y="251.46" size="1.778" layer="91">LIMIT SWITCHES</text>
-<text x="-60.96" y="210.82" size="1.778" layer="91">SYS-CONTROLLED FAN</text>
+<text x="-63.5" y="205.74" size="1.778" layer="91">SYS-CONTROLLED FAN</text>
 <text x="-241.3" y="254" size="1.778" layer="91">POWER IN</text>
 <text x="-27.94" y="137.16" size="1.778" layer="91" rot="R180">Y-MIN &amp; Y-MAX PINS CHANGED.
 CHECK PIN ASSIGNAMENT ON 
 MARLIN TO AVOID ISSUES.</text>
 <text x="-200.66" y="238.76" size="2.54" layer="91">5V-SELECT</text>
+<text x="-101.6" y="99.06" size="1.778" layer="91">SERIAL 3 PORT</text>
+<text x="38.1" y="256.54" size="1.778" layer="91">SERIAL 0 EXP PORT</text>
 </plain>
 <instances>
 <instance part="ARD-MEGA" gate="G$1" x="0" y="116.84" smashed="yes" rot="R270"/>
@@ -19561,8 +19566,8 @@ MARLIN TO AVOID ISSUES.</text>
 <attribute name="VALUE" x="-243.84" y="239.903" size="1.778" layer="96" rot="R180"/>
 <attribute name="NAME" x="-246.38" y="235.331" size="1.778" layer="95"/>
 </instance>
-<instance part="WIFI" gate="A" x="-81.28" y="86.36" smashed="yes">
-<attribute name="NAME" x="-87.63" y="94.615" size="1.778" layer="95"/>
+<instance part="WIFI-SERIAL3" gate="A" x="-81.28" y="86.36" smashed="yes">
+<attribute name="NAME" x="-74.295" y="80.01" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="-78.74" y="80.01" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="GND24" gate="1" x="-101.6" y="81.28" smashed="yes">
@@ -19703,6 +19708,17 @@ MARLIN TO AVOID ISSUES.</text>
 <instance part="PWR-SEL" gate="A" x="-104.14" y="111.76" smashed="yes" rot="R90">
 <attribute name="NAME" x="-112.395" y="105.41" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="-96.52" y="105.41" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="SERIAL_0_EXP" gate="A" x="53.34" y="238.76" smashed="yes">
+<attribute name="NAME" x="57.15" y="253.365" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="55.88" y="247.65" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="GND26" gate="1" x="30.48" y="233.68" smashed="yes">
+<attribute name="VALUE" x="27.94" y="231.14" size="1.778" layer="96"/>
+</instance>
+<instance part="R16" gate="G$1" x="50.8" y="226.06" smashed="yes">
+<attribute name="NAME" x="46.99" y="227.5586" size="1.778" layer="95"/>
+<attribute name="VALUE" x="46.99" y="222.758" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -20000,7 +20016,7 @@ MARLIN TO AVOID ISSUES.</text>
 <segment>
 <label x="-99.06" y="83.82" size="1.778" layer="95"/>
 <pinref part="GND24" gate="1" pin="GND"/>
-<pinref part="WIFI" gate="A" pin="5"/>
+<pinref part="WIFI-SERIAL3" gate="A" pin="5"/>
 <wire x1="-83.82" y1="83.82" x2="-101.6" y2="83.82" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -20055,6 +20071,11 @@ MARLIN TO AVOID ISSUES.</text>
 <pinref part="C14" gate="G$1" pin="-"/>
 <junction x="-165.1" y="218.44"/>
 </segment>
+<segment>
+<pinref part="SERIAL_0_EXP" gate="A" pin="5"/>
+<pinref part="GND26" gate="1" pin="GND"/>
+<wire x1="50.8" y1="236.22" x2="30.48" y2="236.22" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="D1" class="0">
 <segment>
@@ -20063,9 +20084,9 @@ MARLIN TO AVOID ISSUES.</text>
 <label x="-25.4" y="142.24" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="WIFI" gate="A" pin="2"/>
-<wire x1="-83.82" y1="91.44" x2="-101.6" y2="91.44" width="0.1524" layer="91"/>
-<label x="-101.6" y="91.44" size="1.778" layer="95"/>
+<pinref part="SERIAL_0_EXP" gate="A" pin="2"/>
+<wire x1="50.8" y1="243.84" x2="40.64" y2="243.84" width="0.1524" layer="91"/>
+<label x="40.64" y="243.84" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="D2" class="0">
@@ -20075,9 +20096,9 @@ MARLIN TO AVOID ISSUES.</text>
 <label x="-25.4" y="139.7" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="R13" gate="G$1" pin="1"/>
-<wire x1="-121.92" y1="93.98" x2="-129.54" y2="93.98" width="0.1524" layer="91"/>
-<label x="-127" y="93.98" size="1.778" layer="95"/>
+<pinref part="SERIAL_0_EXP" gate="A" pin="1"/>
+<wire x1="50.8" y1="246.38" x2="40.64" y2="246.38" width="0.1524" layer="91"/>
+<label x="40.64" y="246.38" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="AM-VIN" class="0">
@@ -20638,6 +20659,11 @@ MARLIN TO AVOID ISSUES.</text>
 <pinref part="PWR-SEL" gate="A" pin="1"/>
 <wire x1="-109.22" y1="114.3" x2="-109.22" y2="109.22" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="SERIAL_0_EXP" gate="A" pin="4"/>
+<wire x1="50.8" y1="238.76" x2="40.64" y2="238.76" width="0.1524" layer="91"/>
+<label x="40.64" y="238.76" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="+12V" class="0">
 <segment>
@@ -21141,6 +21167,16 @@ MARLIN TO AVOID ISSUES.</text>
 <wire x1="-104.14" y1="114.3" x2="-96.52" y2="114.3" width="0.1524" layer="91"/>
 <label x="-101.6" y="114.3" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="SERIAL_0_EXP" gate="A" pin="3"/>
+<wire x1="50.8" y1="241.3" x2="40.64" y2="241.3" width="0.1524" layer="91"/>
+<label x="38.1" y="241.3" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="55.88" y1="226.06" x2="63.5" y2="226.06" width="0.1524" layer="91"/>
+<pinref part="R16" gate="G$1" pin="2"/>
+<label x="55.88" y="226.06" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="N$29" class="0">
 <segment>
@@ -21255,6 +21291,11 @@ MARLIN TO AVOID ISSUES.</text>
 <wire x1="-15.24" y1="106.68" x2="-25.4" y2="106.68" width="0.1524" layer="91"/>
 <label x="-25.4" y="106.68" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="R13" gate="G$1" pin="1"/>
+<wire x1="-121.92" y1="93.98" x2="-129.54" y2="93.98" width="0.1524" layer="91"/>
+<label x="-129.54" y="93.98" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="RX3" class="0">
 <segment>
@@ -21262,10 +21303,15 @@ MARLIN TO AVOID ISSUES.</text>
 <wire x1="-15.24" y1="104.14" x2="-25.4" y2="104.14" width="0.1524" layer="91"/>
 <label x="-25.4" y="104.14" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="WIFI-SERIAL3" gate="A" pin="2"/>
+<wire x1="-83.82" y1="91.44" x2="-99.06" y2="91.44" width="0.1524" layer="91"/>
+<label x="-99.06" y="91.44" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="CH_PD" class="0">
 <segment>
-<pinref part="WIFI" gate="A" pin="6"/>
+<pinref part="WIFI-SERIAL3" gate="A" pin="6"/>
 <wire x1="-83.82" y1="81.28" x2="-88.9" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="-96.52" y1="81.28" x2="-88.9" y2="81.28" width="0.1524" layer="91"/>
 <label x="-96.52" y="81.28" size="1.778" layer="95"/>
@@ -21278,7 +21324,7 @@ MARLIN TO AVOID ISSUES.</text>
 </net>
 <net name="N$18" class="0">
 <segment>
-<pinref part="WIFI" gate="A" pin="1"/>
+<pinref part="WIFI-SERIAL3" gate="A" pin="1"/>
 <pinref part="R13" gate="G$1" pin="2"/>
 <wire x1="-83.82" y1="93.98" x2="-111.76" y2="93.98" width="0.1524" layer="91"/>
 <pinref part="R10" gate="G$1" pin="2"/>
@@ -21352,7 +21398,7 @@ MARLIN TO AVOID ISSUES.</text>
 </net>
 <net name="N$31" class="0">
 <segment>
-<pinref part="WIFI" gate="A" pin="4"/>
+<pinref part="WIFI-SERIAL3" gate="A" pin="4"/>
 <wire x1="-83.82" y1="86.36" x2="-109.22" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="-109.22" y1="106.68" x2="-109.22" y2="86.36" width="0.1524" layer="91"/>
 <pinref part="PWR-SEL" gate="A" pin="2"/>
@@ -21362,12 +21408,24 @@ MARLIN TO AVOID ISSUES.</text>
 </net>
 <net name="N$32" class="0">
 <segment>
-<pinref part="WIFI" gate="A" pin="3"/>
+<pinref part="WIFI-SERIAL3" gate="A" pin="3"/>
 <wire x1="-83.82" y1="88.9" x2="-104.14" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="-104.14" y1="106.68" x2="-104.14" y2="88.9" width="0.1524" layer="91"/>
 <pinref part="PWR-SEL" gate="A" pin="4"/>
 <wire x1="-101.6" y1="109.22" x2="-101.6" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="-101.6" y1="106.68" x2="-104.14" y2="106.68" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="CH-PD" class="0">
+<segment>
+<pinref part="SERIAL_0_EXP" gate="A" pin="6"/>
+<wire x1="50.8" y1="233.68" x2="40.64" y2="233.68" width="0.1524" layer="91"/>
+<label x="38.1" y="233.68" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="38.1" y1="226.06" x2="45.72" y2="226.06" width="0.1524" layer="91"/>
+<pinref part="R16" gate="G$1" pin="1"/>
+<label x="38.1" y="226.06" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
