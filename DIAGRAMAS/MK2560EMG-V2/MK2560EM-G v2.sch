@@ -19945,9 +19945,9 @@ Switches electronic signals</description>
 <part name="GND20" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND27" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND28" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="Q5" library="SparkFun-DiscreteSemi" deviceset="MOSFET-NCH" device="-AO3404A" value="5.8A/30V/35mΩ"/>
-<part name="Q7" library="SparkFun-DiscreteSemi" deviceset="MOSFET-NCH" device="-AO3404A" value="5.8A/30V/35mΩ"/>
-<part name="Q6" library="SparkFun-DiscreteSemi" deviceset="MOSFET-NCH" device="-AO3404A" value="5.8A/30V/35mΩ"/>
+<part name="Q5" library="SparkFun-DiscreteSemi" deviceset="MOSFET-NCH" device="-AO3404A" value="IRML2502"/>
+<part name="Q7" library="SparkFun-DiscreteSemi" deviceset="MOSFET-NCH" device="-AO3404A" value="IRML2502"/>
+<part name="Q6" library="SparkFun-DiscreteSemi" deviceset="MOSFET-NCH" device="-AO3404A" value="IRLML2502"/>
 <part name="C15" library="capacitor-wima" library_urn="urn:adsk.eagle:library:116" deviceset="C" device="2.5/2" package3d_urn="urn:adsk.eagle:package:5415/1" value="100nF"/>
 <part name="C16" library="capacitor-wima" library_urn="urn:adsk.eagle:library:116" deviceset="C" device="2.5/2" package3d_urn="urn:adsk.eagle:package:5415/1" value="100nF"/>
 <part name="C17" library="capacitor-wima" library_urn="urn:adsk.eagle:library:116" deviceset="C" device="2.5/2" package3d_urn="urn:adsk.eagle:package:5415/1" value="100nF"/>
@@ -20001,8 +20001,8 @@ MARLIN TO AVOID ISSUES.</text>
 <text x="2.54" y="195.58" size="2.54" layer="91">RGB LED CONTROL</text>
 <text x="17.78" y="162.56" size="2.54" layer="91">FILTERING RGB SIGNAL LINES</text>
 <text x="-35.56" y="231.14" size="2.54" layer="91">FILAMENT SENSOR</text>
-<text x="-81.28" y="231.14" size="2.54" layer="91">RESET EXT HEADER</text>
-<text x="-129.54" y="231.14" size="2.54" layer="91">BL TOUCH EXTRA PINS</text>
+<text x="40.64" y="134.62" size="2.54" layer="91">RESET EXT HEADER</text>
+<text x="-7.62" y="134.62" size="2.54" layer="91">BL TOUCH EXTRA PINS</text>
 </plain>
 <instances>
 <instance part="ARD-MEGA" gate="G$1" x="-132.08" y="134.62" smashed="yes" rot="R270"/>
@@ -20541,27 +20541,27 @@ MARLIN TO AVOID ISSUES.</text>
 <attribute name="NAME" x="-24.13" y="226.695" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-24.13" y="213.36" size="1.778" layer="96"/>
 </instance>
-<instance part="JP1" gate="G$1" x="-53.34" y="220.98" smashed="yes">
-<attribute name="NAME" x="-59.69" y="226.695" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-59.69" y="215.9" size="1.778" layer="96"/>
+<instance part="JP1" gate="G$1" x="68.58" y="124.46" smashed="yes">
+<attribute name="NAME" x="62.23" y="130.175" size="1.778" layer="95"/>
+<attribute name="VALUE" x="62.23" y="119.38" size="1.778" layer="96"/>
 </instance>
-<instance part="C18" gate="G$1" x="-73.66" y="218.44" smashed="yes">
-<attribute name="NAME" x="-72.136" y="218.821" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-82.296" y="213.741" size="1.778" layer="96"/>
+<instance part="C18" gate="G$1" x="48.26" y="121.92" smashed="yes">
+<attribute name="NAME" x="49.784" y="122.301" size="1.778" layer="95"/>
+<attribute name="VALUE" x="39.624" y="117.221" size="1.778" layer="96"/>
 </instance>
-<instance part="R24" gate="G$1" x="-68.58" y="223.52" smashed="yes" rot="R180">
-<attribute name="NAME" x="-69.85" y="227.1014" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="-64.77" y="226.822" size="1.778" layer="96" rot="R180"/>
+<instance part="R24" gate="G$1" x="53.34" y="127" smashed="yes" rot="R180">
+<attribute name="NAME" x="52.07" y="130.5814" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="57.15" y="130.302" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="GND33" gate="1" x="-73.66" y="208.28" smashed="yes">
-<attribute name="VALUE" x="-76.2" y="205.74" size="1.778" layer="96"/>
+<instance part="GND33" gate="1" x="48.26" y="111.76" smashed="yes">
+<attribute name="VALUE" x="45.72" y="109.22" size="1.778" layer="96"/>
 </instance>
-<instance part="BL-TOUCH" gate="G$1" x="-109.22" y="218.44" smashed="yes">
-<attribute name="NAME" x="-115.57" y="224.155" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-115.57" y="213.36" size="1.778" layer="96"/>
+<instance part="BL-TOUCH" gate="G$1" x="12.7" y="121.92" smashed="yes">
+<attribute name="NAME" x="6.35" y="127.635" size="1.778" layer="95"/>
+<attribute name="VALUE" x="6.35" y="116.84" size="1.778" layer="96"/>
 </instance>
-<instance part="GND34" gate="1" x="-124.46" y="213.36" smashed="yes">
-<attribute name="VALUE" x="-127" y="210.82" size="1.778" layer="96"/>
+<instance part="GND34" gate="1" x="-2.54" y="116.84" smashed="yes">
+<attribute name="VALUE" x="-5.08" y="114.3" size="1.778" layer="96"/>
 </instance>
 <instance part="U$1" gate="G$1" x="-284.48" y="279.4" smashed="yes"/>
 <instance part="U$2" gate="G$1" x="-261.62" y="119.38" smashed="yes"/>
@@ -20749,11 +20749,11 @@ MARLIN TO AVOID ISSUES.</text>
 <segment>
 <pinref part="JP1" gate="G$1" pin="1"/>
 <pinref part="R24" gate="G$1" pin="1"/>
-<wire x1="-55.88" y1="223.52" x2="-63.5" y2="223.52" width="0.1524" layer="91"/>
-<wire x1="-63.5" y1="223.52" x2="-63.5" y2="228.6" width="0.1524" layer="91"/>
-<wire x1="-63.5" y1="228.6" x2="-71.12" y2="228.6" width="0.1524" layer="91"/>
-<junction x="-63.5" y="223.52"/>
-<label x="-71.12" y="228.6" size="1.778" layer="95"/>
+<wire x1="66.04" y1="127" x2="58.42" y2="127" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="127" x2="58.42" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="132.08" x2="50.8" y2="132.08" width="0.1524" layer="91"/>
+<junction x="58.42" y="127"/>
+<label x="50.8" y="132.08" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -20990,7 +20990,7 @@ MARLIN TO AVOID ISSUES.</text>
 </segment>
 <segment>
 <pinref part="C18" gate="G$1" pin="2"/>
-<wire x1="-73.66" y1="213.36" x2="-73.66" y2="210.82" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="116.84" x2="48.26" y2="114.3" width="0.1524" layer="91"/>
 <pinref part="GND33" gate="1" pin="GND"/>
 </segment>
 <segment>
@@ -21000,9 +21000,9 @@ MARLIN TO AVOID ISSUES.</text>
 </segment>
 <segment>
 <pinref part="GND34" gate="1" pin="GND"/>
-<wire x1="-124.46" y1="215.9" x2="-124.46" y2="218.44" width="0.1524" layer="91"/>
+<wire x1="-2.54" y1="119.38" x2="-2.54" y2="121.92" width="0.1524" layer="91"/>
 <pinref part="BL-TOUCH" gate="G$1" pin="2"/>
-<wire x1="-124.46" y1="218.44" x2="-111.76" y2="218.44" width="0.1524" layer="91"/>
+<wire x1="-2.54" y1="121.92" x2="10.16" y2="121.92" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="D1" class="0">
@@ -21607,8 +21607,8 @@ MARLIN TO AVOID ISSUES.</text>
 </segment>
 <segment>
 <pinref part="R24" gate="G$1" pin="2"/>
-<wire x1="-73.66" y1="223.52" x2="-81.28" y2="223.52" width="0.1524" layer="91"/>
-<label x="-81.28" y="223.52" size="1.778" layer="95"/>
+<wire x1="48.26" y1="127" x2="40.64" y2="127" width="0.1524" layer="91"/>
+<label x="40.64" y="127" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="+12V" class="0">
@@ -22475,7 +22475,7 @@ MARLIN TO AVOID ISSUES.</text>
 <net name="N$33" class="0">
 <segment>
 <pinref part="JP1" gate="G$1" pin="2"/>
-<wire x1="-55.88" y1="220.98" x2="-73.66" y2="220.98" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="124.46" x2="48.26" y2="124.46" width="0.1524" layer="91"/>
 <pinref part="C18" gate="G$1" pin="1"/>
 </segment>
 </net>
@@ -22495,8 +22495,8 @@ MARLIN TO AVOID ISSUES.</text>
 </segment>
 <segment>
 <pinref part="BL-TOUCH" gate="G$1" pin="1"/>
-<wire x1="-111.76" y1="220.98" x2="-124.46" y2="220.98" width="0.1524" layer="91"/>
-<label x="-124.46" y="220.98" size="1.778" layer="95"/>
+<wire x1="10.16" y1="124.46" x2="-2.54" y2="124.46" width="0.1524" layer="91"/>
+<label x="-2.54" y="124.46" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
